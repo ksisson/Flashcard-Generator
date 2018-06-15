@@ -22,7 +22,6 @@ inquirer.prompt([
 });
 
 
-counter = 0;
 
 function askBasicQuestion(){
     inquirer.prompt([
@@ -41,7 +40,7 @@ function askBasicQuestion(){
             }
             else{
                 console.log("You have gone through all the flash cards.")
-                console.log("You got " + correct + " correct and " + incorrect + " incorrect")
+                
             }
         }
         else{
